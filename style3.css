@@ -2,9 +2,10 @@
 html {
   margin:0;
   padding:0;
-  background: url(fond.png) no-repeat center fixed;
+  background: url(images/backabout.png) no-repeat center fixed;
   -webkit-background-size: cover;
   background-size: cover;
+
 }
 
 
@@ -16,9 +17,14 @@ p{
     margin-top: 450px;
 }
 
-img{
-  height: 200px;
-  width: 200px;
+
+.content{
+text-align: center;
+background-color: pink;
+height : 600px;
+margin : 20px;
+border : 1px;
+padding: 10px;
 
 }
 
@@ -126,7 +132,7 @@ a:hover
   margin-bottom: 5px;
   position: relative;
 
-  background: white;
+  background: black;
   border-radius: 3px;
 
   z-index: 1;
@@ -213,9 +219,7 @@ a:hover
   transform: none;
 }
 
+/*
+ * a rajouter sur github
+ */
 
-
-.Section1{
-  width: 100%;
-  height: 
-}
